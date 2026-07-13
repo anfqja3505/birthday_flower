@@ -16,11 +16,17 @@
             <p>The Flower of My Birth Day</p>
             <h1>나의 탄생화 찾기</h1>
         </div>
-        <div class="contents">
-            <input id="user_birthday" placeholder="태어난 달을 숫자로 입력해주세요.">
+        <form action="#" method="get" id="frm1" name="frm1">
+            <input type="number" id="user_birthday" placeholder="태어난 달을 숫자로 입력해주세요." autofocus> 
             <button id="birthday_result_btn">나의 꽃과 꽃말 만나기</button>
             <!-- a태그는 클릭 시 다른페이지로 이동 -->
             <!-- button 태그 클릭 시 범용기능 동적표현 -->
+        </form>
+        <!-- (아래) 결과창 -->
+        <div class="result_popup">
+            <h2>birthday Month 12</h2>
+            <p>꽃말 : 자기애, 자존심, 외로움</p>
+            <p>당신의 탄생화는<br><em>‘수선화’</em>입니다.</p>
         </div> 
     </main>
 </body>
