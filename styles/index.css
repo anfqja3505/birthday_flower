@@ -1,3 +1,4 @@
+/* birthday_flower */
 /* index.css */
 /* 시작레이아웃요소 가운데 배치하는 법 */
 /* 1. text-align */
@@ -80,8 +81,24 @@ main .result_popup {
     gap: 50px;
     padding: 40px 10px;
     position: absolute;
-    left: 1; top: 1;
+    left: 30px; bottom: 280px;
+    z-index: 60;
+    font-family: 'MaruBuri';
 }
-main .result_popup h2 {}
-main .result_popup p {}
-main .result_popup p em {}
+main .result_popup h2 {
+    font-size: 0.875em;
+}
+main .result_popup p {
+    font-size: 1.063em;
+}
+main .result_popup p em {
+    font-weight: 700;
+}
+/* ===============================배경 */
+main .birthday_flower_bg {
+    width: 402px; height: 874px;
+    background-color: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    right: 0; top: 0;
+    z-index: 50;
+}
