@@ -1,4 +1,4 @@
-/* birthday_flower */
+/* 탄생화 birthday_flower */
 /* index.js */
 const popup = document.querySelector('.result_popup');
 const popup_bg = document.querySelector('.birthday_flower_bg');
