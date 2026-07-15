@@ -30,7 +30,7 @@
 * 결과창 글꼴, 글자크기, 글자굵기 변결
 ### js
 * `scripts/index.js` 파일 추가
-* `popup`, `popup_bg` 변수명 생성 및 html객체 대입(결과창, 배경)
+* `popup`, `popup_bg` 변수명 생성 및 대입(결과창, 배경)
 * console.log을 사용해 변수값 확인 -> 오류 없음
 * 배경과 팝업창의 `display` 속성을 `none`으로 변경 (숨김처리)
 * 함수 생성(`popupOpen()`, `popupClose()`)
@@ -45,6 +45,6 @@
 ### html
 * `#user_birthday`에 `onclick` 속성 추가 및 함수 연결.
 ### js
-* `user_month` 변수명 생성 및 html객체 대입(입력창)
+* `user_month` 변수명 생성 및 대입(입력창)
 * console.log을 사용해 변수값 확인 -> 오류 없음.
 * 함수 생성(`#user_birthday`)
