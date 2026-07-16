@@ -19,7 +19,7 @@ function popupClose() {
     popup_bg.style.display = 'none';
 }
 
-let user_month = document.querySelector('#user_birthday')
+const user_month = document.querySelector('#user_birthday')
 
 console.log(user_month)
 

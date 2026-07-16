@@ -25,7 +25,7 @@
 * 스크립트파일(`index.js`) 연결
 * 버튼과 배경 태그 안에 `onclick` 속성 추가 후 함수 연결
 * onclick 속성 추가
-### cs경
+### css
 * 결과창, 배경에 배치 순서 변경 (`z-index`)
 * 결과창 글꼴, 글자크기, 글자굵기 변경
 ### js
@@ -48,3 +48,9 @@
 * `user_month` 변수명 생성 및 대입(입력창)
 * console.log을 사용해 변수값 확인 -> 오류 없음.
 * 함수 생성(`#user_birthday`)
+
+# **2026-07-16**
+
+## 업데이트
+### html
+* `#user_birthday`에 `maxlenth` 속성 추가
